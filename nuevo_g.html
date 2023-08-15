@@ -1,0 +1,27 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css.css">
+  <title>Simulador Consumo de Agua</title>
+  <!-- libreria  SweetAlert  -->
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</head>
+<body>
+  <h1>Simulador para el Consumo de Agua</h1>
+ 
+  <!-- botones para llamar las funciones  -->
+  <div>
+    <button onclick="mostrarFormularioIngreso()">Agregar Cliente</button>
+    <button onclick="generarArchivoJSON()">Generar Archivo JSON</button>
+    <button onclick="filtrarPorNumeroMedidor()">filtro</button>
+  </div>
+
+
+  <div id="resultados"></div>
+<script src="nuevo_g.js"></script>
+
+</body>
+</html>
